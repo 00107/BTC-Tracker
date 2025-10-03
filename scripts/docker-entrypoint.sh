@@ -57,4 +57,4 @@ npx prisma db push --skip-generate
 echo "[START] Starting Next.js application as user $(id -u nextjs):$(id -g nextjs)"
 
 # Switch to app user and start the application
-exec su-exec nextjs node server.js
+exec node server.js
